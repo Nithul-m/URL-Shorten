@@ -15,7 +15,8 @@ await mongoose.connect("mongodb+srv://mnithul:Sathooo2@cluster0.urs1evf.mongodb.
 //use cors to allow cross origin resource sharing
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://url-react.onrender.com",
+    methods:["GET", "POST"],
     credentials: true,
   })
 );

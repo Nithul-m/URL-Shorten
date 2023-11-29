@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Table.module.css";
 
-const baseUrl = process.env.REACT_APP_SERVERURL || "http://localhost:5000";
+const baseUrl = process.env.REACT_APP_SERVERURL || "https://url-backend-7lzq.onrender.com";
 
 export default function Table(props) {
   const copyToClipboard = () => {
