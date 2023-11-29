@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+  background-color: #E98580;
+}
+
+.spinner {
+  margin-top: 5%;
+}
+
+.err {
+  margin-top: 10%; 
+  background-color: #E98580;
+  text-align: center;
+  padding: 5px;
+}
+
+@media (max-width: 767px) {
+  .spinner {
+    margin-top: 8%;
+  }
+
+  .err {
+    margin-top: 20%;
+  }
+}
